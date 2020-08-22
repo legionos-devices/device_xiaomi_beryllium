@@ -6,11 +6,11 @@
 
 $(call inherit-product, device/xiaomi/beryllium/device.mk)
 
-# Inherit some common Wrath stuff.
-$(call inherit-product, vendor/wrath/config/common_full_phone.mk)
+# Inherit some common Legion stuff.
+$(call inherit-product, vendor/legion/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := wrath_beryllium
+PRODUCT_NAME := legion_beryllium
 PRODUCT_DEVICE := beryllium
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := POCO F1
@@ -24,8 +24,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-# Wrath Stuff
+# Legion Stuff
 TARGET_BOOT_ANIMATION_RES := 1080
-WRATH_BUILD_TYPE := OFFICIAL
-WRATH_MAINTAINER := EvilVenom
-
+LEGION_BUILD_TYPE := OFFICIAL

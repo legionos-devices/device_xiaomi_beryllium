@@ -4,3 +4,11 @@ vendor.display.enable_default_color_mode=1
 
 # FM
 vendor.hw.fm.init=0
+
+# Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.maintainer.name=Toxyc
+
+# Cpu
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.processor.model=Snapdragon845
